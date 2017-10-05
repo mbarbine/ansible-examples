@@ -1,6 +1,6 @@
 ---
 # file: common.yml
 - hosts: all
-  remote_user: joe
+  remote_user: ubuntu
   roles:
     - common

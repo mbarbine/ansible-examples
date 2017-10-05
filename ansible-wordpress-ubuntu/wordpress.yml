@@ -1,7 +1,7 @@
 ---
 # file: wordpress.yml
 - hosts: wordpress
-  remote_user: joe
+  remote_user: ubuntu
   sudo: yes
   roles:
     - common

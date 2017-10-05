@@ -1,7 +1,7 @@
 ---
 # file: html.yml
 - hosts: html
-  remote_user: joe
+  remote_user: ubuntu
   sudo: yes
   roles:
     - common
